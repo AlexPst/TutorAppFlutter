@@ -1,0 +1,762 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Репетитор",
+  "navHome": "Главная",
+  "navSchedule": "Расписание",
+  "navFinance": "Финансы",
+  "navStudents": "Ученики",
+  "languageRussian": "Русский",
+  "languageEnglish": "English",
+  "commonCancel": "Отмена",
+  "commonSave": "Сохранить",
+  "commonDelete": "Удалить",
+  "commonAdd": "Добавить",
+  "commonRetry": "Повторить",
+  "commonClear": "Очистить",
+  "commonEdit": "Редактировать",
+  "commonMore": "Ещё",
+  "commonBack": "Назад",
+  "commonForward": "Вперёд",
+  "commonToday": "Сегодня",
+  "commonTomorrow": "Завтра",
+  "commonCopiedValue": "Скопировано: {value}",
+  "@commonCopiedValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "commonCopyTooltip": "Скопировать",
+  "commonNote": "Заметка",
+  "commonTopic": "Тема",
+  "commonDate": "Дата",
+  "commonTime": "Время",
+  "commonStudent": "Ученик",
+  "commonStudentRequired": "Ученик *",
+  "commonSubject": "Предмет",
+  "commonSubjectRequired": "Предмет *",
+  "commonDuration": "Длительность",
+  "commonPackage": "Пакет",
+  "commonNoTopic": "Тема не указана",
+  "commonNotFoundMaybeDeleted": "Возможно, данные удалили",
+  "commonGrade": "Оценка",
+  "commonNoGrade": "Без оценки",
+  "commonSelectStudent": "Выберите ученика",
+  "commonSelectSubject": "Выберите предмет",
+  "commonAddStudentFirst": "Сначала добавьте ученика",
+  "commonAddStudent": "Добавить ученика",
+  "commonLoading": "Загрузка…",
+  "leaveWithoutSavingTitle": "Выйти без сохранения?",
+  "leaveWithoutSavingMessage": "Внесённые изменения будут потеряны.",
+  "leaveAction": "Выйти",
+  "loadErrorTitle": "Не удалось загрузить данные",
+  "errorUnexpected": "Что-то пошло не так. Попробуйте ещё раз.",
+  "errorWidgetTitle": "Не удалось показать этот блок",
+  "notFoundTitle": "Страница не найдена",
+  "toStudentsList": "К списку учеников",
+  "periodAll": "Всё",
+  "periodDay": "День",
+  "periodWeek": "Неделя",
+  "periodMonth": "Месяц",
+  "weekRangeSameMonth": "{startDay}–{endDay} {month}",
+  "@weekRangeSameMonth": {
+    "placeholders": {
+      "startDay": {
+        "type": "String"
+      },
+      "endDay": {
+        "type": "String"
+      },
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "weekRangeCrossMonth": "{start} – {end}",
+  "@weekRangeCrossMonth": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "durationMinutes": "{minutes} мин",
+  "@durationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "durationHours": "{hours} ч",
+  "@durationHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "durationHoursMinutes": "{hours} ч {minutes} мин",
+  "@durationHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "lessonsCount": "{count, plural, one{{count} занятие} few{{count} занятия} many{{count} занятий} other{{count} занятия}}",
+  "@lessonsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "paymentsCount": "{count, plural, one{{count} платёж} few{{count} платежа} many{{count} платежей} other{{count} платежа}}",
+  "@paymentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "gradesCount": "{count, plural, one{{count} оценка} few{{count} оценки} many{{count} оценок} other{{count} оценки}}",
+  "@gradesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studentsCount": "{count, plural, one{{count} ученик} few{{count} ученика} many{{count} учеников} other{{count} ученика}}",
+  "@studentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "entriesCount": "{count, plural, one{{count} запись} few{{count} записи} many{{count} записей} other{{count} записи}}",
+  "@entriesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "andMore": "и ещё {items}",
+  "@andMore": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "fieldNameRequired": "Укажите имя ученика",
+  "fieldNameTooLong": "Не длиннее {max} символов",
+  "@fieldNameTooLong": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "fieldPhoneInvalid": "Например, +7 900 123-45-67",
+  "fieldTelegramInvalid": "5–32 символа: латиница, цифры и «_»",
+  "fieldIntegerRequired": "Целое число",
+  "fieldGradeBoundOutOfRange": "От 0 до {max}",
+  "@fieldGradeBoundOutOfRange": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "fieldGradeRangeInvalid": "Минимум должен быть меньше максимума",
+  "fieldPriceRequired": "Укажите стоимость занятия",
+  "fieldAmountRequired": "Укажите сумму",
+  "fieldMoneyFormat": "Сумма в рублях, например 1500 или 1500,50",
+  "fieldAmountTooLarge": "Слишком большая сумма",
+  "fieldAmountNotPositive": "Сумма должна быть больше нуля",
+  "failureStudentNotFound": "Ученик не найден",
+  "failureEnrollmentNotFound": "Предмет ученика не найден",
+  "failureSubjectNotFound": "Предмет не найден",
+  "failureLessonNotFound": "Занятие не найдено",
+  "failurePaymentNotFound": "Платёж не найден",
+  "failurePackageNotFound": "Пакет не найден",
+  "failureProgressEntryNotFound": "Запись прогресса не найдена",
+  "failureSubjectNameTaken": "Предмет «{name}» уже есть",
+  "@failureSubjectNameTaken": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "failureSubjectInUse": "Предмет используется в направлениях учеников",
+  "failureEnrollmentExists": "У ученика уже есть направление по этому предмету",
+  "failurePackageBelowUsage": "Из пакета уже списано занятий: {used}. Нельзя сделать в нём меньше занятий",
+  "@failurePackageBelowUsage": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      }
+    }
+  },
+  "failureLessonDurationOutOfRange": "Длительность занятия — от 5 минут до 10 часов",
+  "failureLessonPriceInvalid": "Недопустимая стоимость занятия",
+  "failureEnrollmentArchived": "Предмет в архиве. Верните его из архива, чтобы планировать занятия",
+  "failureRescheduleOnlyPlanned": "Перенести можно только запланированное занятие",
+  "failureGradeOnlyForCompleted": "Оценку можно поставить только за проведённое занятие",
+  "failureGradeOutOfScale": "Оценка должна быть от {min} до {max}",
+  "@failureGradeOutOfScale": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "failurePaymentAmountInvalid": "Недопустимая сумма платежа",
+  "failurePaymentDateInFuture": "Дата оплаты не может быть в будущем",
+  "failureProgressEntryEmpty": "Укажите тему, оценку или заметку",
+  "failureProgressDateInFuture": "Дата записи не может быть в будущем",
+  "failureLessonOfOtherSubject": "Занятие относится к другому предмету",
+  "failureLessonNotPast": "Запись можно привязать только к прошедшему занятию",
+  "failureLessonHasProgressEntry": "У этого занятия уже есть запись прогресса",
+  "settingsTitle": "Настройки",
+  "settingsTheme": "Тема",
+  "settingsThemeSystem": "Как в системе",
+  "settingsThemeLight": "Светлая",
+  "settingsThemeDark": "Тёмная",
+  "settingsLanguage": "Язык",
+  "settingsLanguageSystem": "Как в системе",
+  "settingsDataNote": "Данные хранятся только на этом устройстве",
+  "balanceDebt": "Долг {amount}",
+  "@balanceDebt": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "balanceAdvance": "Аванс {amount}",
+  "@balanceAdvance": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "balanceNoDebt": "Долгов нет",
+  "settingsTooltip": "Настройки",
+  "studentsArchiveTitle": "Архив учеников",
+  "studentsSortTooltip": "Сортировка",
+  "studentsActiveTooltip": "Активные ученики",
+  "studentsArchiveTooltip": "Архив",
+  "studentsAddFab": "Ученик",
+  "studentsNoMatchesTitle": "Никого не нашли",
+  "studentsNoMatchesMessage": "Измените запрос или сбросьте фильтры",
+  "studentsResetFilters": "Сбросить фильтры",
+  "studentsArchiveEmptyTitle": "Архив пуст",
+  "studentsArchiveEmptyMessage": "Сюда попадают ученики, с которыми вы больше не занимаетесь",
+  "studentsEmptyTitle": "Учеников пока нет",
+  "studentsEmptyMessage": "Добавьте первого ученика, чтобы вести занятия и оплаты",
+  "studentSortName": "По имени",
+  "studentSortDebt": "По долгу",
+  "studentsSearchHint": "Имя, телефон или Telegram",
+  "studentsDebtorsFilter": "Должники",
+  "studentNoSubjects": "Нет предметов",
+  "notesSaved": "Заметка сохранена",
+  "notesAboutStudent": "Об ученике",
+  "notesStudentNoteTitle": "Заметка об ученике",
+  "notesSubjectHint": "Цели, слабые места, программа",
+  "notesEditTooltip": "Редактировать заметку",
+  "notesEmpty": "Заметок пока нет",
+  "gradeScaleCustom": "Своя",
+  "gradeScaleFrom": "От",
+  "gradeScaleTo": "До",
+  "gradeScaleHint": "По этой шкале ставятся оценки за занятия",
+  "gradeScaleTitle": "Шкала оценок",
+  "studentLessonsEmptyTitle": "Занятий пока нет",
+  "studentLessonsEmptyMessage": "Запланируйте первое занятие с учеником",
+  "planLesson": "Запланировать занятие",
+  "studentPaymentsEmptyTitle": "Оплат пока нет",
+  "studentPaymentsEmptyMessage": "Здесь появятся платежи, пакеты и расчёт долга",
+  "addPayment": "Добавить платёж",
+  "paymentShort": "Платёж",
+  "remind": "Напомнить",
+  "packagesSection": "Пакеты",
+  "paymentsSection": "Платежи",
+  "noPaymentsYet": "Платежей пока нет",
+  "balanceLessonsOutsidePackages": "Занятия вне пакетов",
+  "balancePaid": "Оплачено",
+  "balanceTitle": "Баланс",
+  "packageUsedUp": "Использован полностью",
+  "packageRemaining": "Осталось {remaining} из {total}",
+  "@packageRemaining": {
+    "placeholders": {
+      "remaining": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "packageUsageSince": "{usage} · от {date}",
+  "@packageUsageSince": {
+    "placeholders": {
+      "usage": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "studentArchivedBanner": "Ученик в архиве",
+  "restore": "Вернуть",
+  "addContacts": "Добавить контакты",
+  "balanceChargedPaid": "Начислено {charged} · оплачено {paid}",
+  "@balanceChargedPaid": {
+    "placeholders": {
+      "charged": {
+        "type": "String"
+      },
+      "paid": {
+        "type": "String"
+      }
+    }
+  },
+  "subjectsTitle": "Предметы",
+  "subjectsEmptyHint": "Добавьте предмет и стоимость занятия — они понадобятся для занятий и оплат",
+  "subjectArchived": "{subject} · в архиве",
+  "@subjectArchived": {
+    "placeholders": {
+      "subject": {
+        "type": "String"
+      }
+    }
+  },
+  "rateForDuration": "{price} за {duration}",
+  "@rateForDuration": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "progressNoSubjectsTitle": "Нет предметов",
+  "progressNoSubjectsMessage": "Добавьте предмет, чтобы отслеживать прогресс",
+  "studentEditTitle": "Редактирование",
+  "studentNewTitle": "Новый ученик",
+  "fieldFullName": "Имя и фамилия *",
+  "fieldPhone": "Телефон",
+  "fieldTelegramHint": "@username или ссылка t.me",
+  "studentNoteHint": "Цели, особенности, договорённости",
+  "enrollmentNewTitle": "Новый предмет",
+  "enrollmentTitle": "Предмет ученика",
+  "subjectNameLabel": "Название",
+  "enterName": "Введите название",
+  "enrollmentPrice": "Стоимость занятия *",
+  "enrollmentPriceHelper": "Подставляется в новые занятия. Прошлые занятия сохраняют свою стоимость",
+  "defaultDuration": "Длительность по умолчанию",
+  "enrollmentNote": "Заметка по предмету",
+  "archivedSwitch": "В архиве",
+  "enrollmentArchivedHint": "Предмет скрыт из активных, история сохраняется",
+  "addSubject": "Добавить предмет",
+  "addSubjectHint": "Добавьте предмет, который вы ведёте",
+  "newSubjectOption": "Новый предмет…",
+  "tabLessons": "Занятия",
+  "tabPayments": "Оплаты",
+  "tabProgress": "Прогресс",
+  "tabNotes": "Заметки",
+  "studentMovedToArchive": "Ученик перемещён в архив",
+  "deleteStudentTitle": "Удалить ученика?",
+  "deleteStudentMessage": "Будут удалены все занятия, оплаты и прогресс ученика. Это действие нельзя отменить.\n\nЕсли вы просто больше не занимаетесь, отправьте ученика в архив — история сохранится.",
+  "studentDeleted": "Ученик удалён",
+  "restoreFromArchive": "Вернуть из архива",
+  "toArchive": "В архив",
+  "statusPlanned": "Запланировано",
+  "statusCompleted": "Проведено",
+  "statusCancelledByStudent": "Отменено учеником",
+  "statusCancelledByTutor": "Отменено мной",
+  "statusNoShow": "Пропуск",
+  "lessonsFab": "Занятие",
+  "noLessons": "Занятий нет",
+  "noLessonsThisWeek": "На этой неделе занятий нет",
+  "todayWithDate": "Сегодня, {date}",
+  "@todayWithDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "noLessonsMessage": "Запланируйте занятие или выберите другой период",
+  "monthDaySemantics": "{day}, занятий: {count}",
+  "@monthDaySemantics": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "markedAs": "Отмечено: {status}",
+  "@markedAs": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "billableHint": "Оплачивается: из пакета или в долг",
+  "notBillable": "Не оплачивается",
+  "lessonTopic": "Тема занятия",
+  "gradeWithScale": "Оценка ({min}–{max})",
+  "@gradeWithScale": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "comment": "Комментарий",
+  "commentHint": "Что получилось, над чем поработать",
+  "rescheduledTo": "Перенесено на {dateTime}",
+  "@rescheduledTo": {
+    "placeholders": {
+      "dateTime": {
+        "type": "String"
+      }
+    }
+  },
+  "lessonPlannedAgain": "Занятие снова запланировано",
+  "deleteLessonTitle": "Удалить занятие?",
+  "deleteLessonMessage": "Занятие, его оценка и начисление будут удалены. Если занятие было списано из пакета, оно вернётся в пакет.",
+  "lessonDeleted": "Занятие удалено",
+  "cancelByStudent": "Отменил ученик",
+  "cancelNoShow": "Ученик не пришёл",
+  "cancelByTutor": "Отменил я",
+  "billable": "Оплачивается",
+  "lessonTitle": "Занятие",
+  "lessonNewTitle": "Новое занятие",
+  "lessonNeedsStudentMessage": "Занятие назначается ученику по одному из его предметов",
+  "deleteLessonTooltip": "Удалить занятие",
+  "studentAndSubject": "Ученик и предмет",
+  "priceRequired": "Стоимость *",
+  "statusLabel": "Статус",
+  "lessonNote": "Заметка к занятию",
+  "lessonNoteHint": "Домашнее задание, материалы",
+  "createLesson": "Создать занятие",
+  "paidFromPackage": "Оплачено из пакета",
+  "billableFormHint": "Оплачивается: из пакета, если он есть, иначе в долг",
+  "selectStudentFirst": "Сначала выберите ученика",
+  "studentHasNoSubjects": "У ученика нет предметов — добавьте их в карточке ученика",
+  "needsMarking": "Нужно отметить",
+  "actionCancelled": "Отменено",
+  "actionReschedule": "Перенести",
+  "lessonActionsTooltip": "Действия с занятием",
+  "markOutcome": "Отметить итог…",
+  "editOutcome": "Изменить итог…",
+  "returnToPlanned": "Вернуть в запланированные",
+  "methodCardTransfer": "Перевод на карту",
+  "methodCash": "Наличные",
+  "methodOther": "Другое",
+  "allStudents": "Все ученики",
+  "noPaymentsTitle": "Платежей нет",
+  "noPaymentsMessage": "Измените период или ученика либо добавьте платёж",
+  "paymentsTotal": "Итого {total} · {payments}",
+  "@paymentsTotal": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      },
+      "payments": {
+        "type": "String"
+      }
+    }
+  },
+  "studentHasNoDebt": "У ученика нет долга",
+  "reminderCopied": "Текст скопирован — вставьте его в мессенджер",
+  "reminderTitle": "Напоминание об оплате",
+  "reminderEditHint": "Текст можно отредактировать перед копированием",
+  "debtReminderText": "Здравствуйте, {name}!\n\nНапоминаю об оплате занятий: к оплате {amount}.\nОплатить можно переводом на карту. Если уже оплатили — спасибо, просто сообщите мне.",
+  "@debtReminderText": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "incomeEmpty": "За этот период нет оплат и начислений",
+  "byStudents": "По ученикам",
+  "incomeReceived": "Получено",
+  "incomeCharged": "Начислено",
+  "incomeBreakdown": "Занятия {lessons} · пакеты {packages}",
+  "@incomeBreakdown": {
+    "placeholders": {
+      "lessons": {
+        "type": "String"
+      },
+      "packages": {
+        "type": "String"
+      }
+    }
+  },
+  "incomeCompleted": "Проведено {lessons}",
+  "@incomeCompleted": {
+    "placeholders": {
+      "lessons": {
+        "type": "String"
+      }
+    }
+  },
+  "incomeCompletedWithDuration": "Проведено {lessons} · {duration}",
+  "@incomeCompletedWithDuration": {
+    "placeholders": {
+      "lessons": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "incomeExplanation": "«Получено» — деньги, пришедшие за период. «Начислено» — стоимость оплачиваемых занятий и пакетов за период.",
+  "studentIncomeSubtitle": "Начислено {charged} · {lessons}",
+  "@studentIncomeSubtitle": {
+    "placeholders": {
+      "charged": {
+        "type": "String"
+      },
+      "lessons": {
+        "type": "String"
+      }
+    }
+  },
+  "paymentNewTitle": "Новый платёж",
+  "paymentSaved": "Платёж {amount} сохранён",
+  "@paymentSaved": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "deletePaymentTitle": "Удалить платёж?",
+  "deletePaymentMessage": "Долг ученика увеличится на сумму платежа.",
+  "paymentDeleted": "Платёж удалён",
+  "deletePaymentTooltip": "Удалить платёж",
+  "amountRequiredLabel": "Сумма *",
+  "paymentDate": "Дата оплаты",
+  "paymentMethod": "Способ",
+  "paymentCommentHint": "Например, за октябрь",
+  "payWholeDebt": "Вся сумма долга",
+  "noDebtorsTitle": "Должников нет",
+  "noDebtorsMessage": "Все ученики рассчитались за занятия",
+  "totalDebt": "Общий долг",
+  "debtorsWithAdvances": "{students} · авансы {amount}",
+  "@debtorsWithAdvances": {
+    "placeholders": {
+      "students": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "lastPaymentNone": "Оплат ещё не было",
+  "lastPayment": "Последняя оплата {date}",
+  "@lastPayment": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "recordPayment": "Внести оплату",
+  "financeTabDebtors": "Должники",
+  "financeTabIncome": "Доходы",
+  "chartEmpty": "График появится после первой оценки",
+  "chartSemantics": "График оценок: {grades}, средний балл {average} из {max}",
+  "@chartSemantics": {
+    "placeholders": {
+      "grades": {
+        "type": "String"
+      },
+      "average": {
+        "type": "String"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "chartAverage": "среднее {average}",
+  "@chartAverage": {
+    "placeholders": {
+      "average": {
+        "type": "String"
+      }
+    }
+  },
+  "chartNoTopic": "без темы",
+  "gradeRange": "От {min} до {max}",
+  "@gradeRange": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "progressDetails": "Подробнее",
+  "noGradesYet": "Оценок пока нет",
+  "averageSummary": "Средний балл {average} из {max} · {grades}",
+  "@averageSummary": {
+    "placeholders": {
+      "average": {
+        "type": "String"
+      },
+      "max": {
+        "type": "int"
+      },
+      "grades": {
+        "type": "String"
+      }
+    }
+  },
+  "toReview": "Повторить: {topics}",
+  "@toReview": {
+    "placeholders": {
+      "topics": {
+        "type": "String"
+      }
+    }
+  },
+  "trendUp": "Растёт",
+  "trendDown": "Снижается",
+  "trendStable": "Стабильно",
+  "masteryMastered": "Освоено",
+  "masteryGood": "Хорошо",
+  "masteryReview": "Повторить",
+  "masteryWeak": "Слабо",
+  "progressEntryFab": "Запись",
+  "goalsTitle": "Цели и слабые места",
+  "sectionTopics": "Темы",
+  "sectionTimeline": "Хронология",
+  "topicsEmptyHint": "Темы появятся, когда вы укажете их в занятиях или записях прогресса",
+  "topicGradesAverage": "{grades}, в среднем {average}",
+  "@topicGradesAverage": {
+    "placeholders": {
+      "grades": {
+        "type": "String"
+      },
+      "average": {
+        "type": "String"
+      }
+    }
+  },
+  "timelineEmptyHint": "Здесь появятся проведённые занятия и записи прогресса",
+  "outsideLesson": "вне занятия",
+  "averageGrade": "Средний балл",
+  "averageOutOf": "{average} из {max}",
+  "@averageOutOf": {
+    "placeholders": {
+      "average": {
+        "type": "String"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "gradesWithScale": "{grades} · шкала {min}–{max}",
+  "@gradesWithScale": {
+    "placeholders": {
+      "grades": {
+        "type": "String"
+      },
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "progressEntryTitle": "Запись прогресса",
+  "progressEntryNewTitle": "Новая запись",
+  "entrySaved": "Запись сохранена",
+  "deleteEntryTitle": "Удалить запись?",
+  "deleteEntryMessage": "Оценка и заметка будут удалены. Само занятие останется.",
+  "entryDeleted": "Запись удалена",
+  "deleteEntryTooltip": "Удалить запись",
+  "linkLessonHelper": "Привяжите запись к занятию или оставьте отдельной (например, контрольная)",
+  "noLessonLink": "Без привязки к занятию",
+  "lessonDateHelper": "Дата занятия",
+  "topicSavedToLesson": "Тема сохранится и в занятии",
+  "gradeOnlyCompletedHint": "Оценка ставится только за проведённое занятие",
+  "addEntry": "Добавить запись",
+  "unmarkedMore": "и ещё {lessons} — после отметки этих они появятся здесь",
+  "@unmarkedMore": {
+    "placeholders": {
+      "lessons": {
+        "type": "String"
+      }
+    }
+  },
+  "summaryTitle": "Сводка",
+  "activeStudents": "Активных учеников",
+  "receivedInMonth": "Получено · {month}",
+  "@receivedInMonth": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "monthCaption": "начислено {charged} · проведено {completed}",
+  "@monthCaption": {
+    "placeholders": {
+      "charged": {
+        "type": "String"
+      },
+      "completed": {
+        "type": "int"
+      }
+    }
+  },
+  "upcomingTitle": "Ближайшие занятия",
+  "noMoreLessonsToday": "На сегодня больше занятий нет",
+  "noLessonsNextWeek": "На ближайшую неделю занятий нет",
+  "planShort": "Запланировать",
+  "allDebtors": "Все должники",
+  "noDebtsHint": "Долгов нет — все ученики рассчитались"
+}
