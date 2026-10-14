@@ -1,0 +1,19 @@
+# Экран запуска. Фон совпадает с фоном приложения (ColorScheme.surface),
+# чтобы при старте не было вспышки. Пересборка:
+# dart run flutter_native_splash:create
+flutter_native_splash:
+  color: "#FBF8FF"
+  color_dark: "#121318"
+  image: assets/splash/splash.png
+
+  android_12:
+    image: assets/splash/splash_android12.png
+    icon_background_color: "#3F51B5"
+    color: "#FBF8FF"
+    color_dark: "#121318"
+    icon_background_color_dark: "#3F51B5"
+
+  android: true
+  ios: false
+  web: false
+  fullscreen: false

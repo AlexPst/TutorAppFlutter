@@ -57,9 +57,12 @@ flutter run -d <android-device>  # Android: список — flutter devices
 Сборка релиза:
 
 ```bash
-flutter build apk --release      # Android
+flutter build appbundle --release --obfuscate --split-debug-info=build/symbols/1.0.0+1  # Google Play
+flutter build apk --release --obfuscate --split-debug-info=build/symbols/1.0.0+1        # RuStore
 flutter build linux --release    # Linux: build/linux/x64/release/bundle/
 ```
+
+Подпись, версии, иконки и материалы для магазинов — в [docs/release.md](docs/release.md).
 
 Где лежат данные: на Linux — `~/.local/share/com.dartway.tutor_app/tutor_app.sqlite`,
 на Android — в каталоге данных приложения.
@@ -124,6 +127,8 @@ lib/
 └── l10n/                    # ARB-файлы и сгенерированные переводы
 test/                        # зеркалит lib/, плюс helpers/
 docs/requirements.md         # требования, user stories, экраны
+docs/release.md              # сборка и публикация под Android
+tool/brand_assets.py         # генератор иконки, splash и графики для магазинов
 drift_schemas/               # снимки схемы БД для миграций
 ```
 

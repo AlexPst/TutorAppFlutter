@@ -1,0 +1,12 @@
+# Источники — assets/icon/, их рисует tool/brand_assets.py.
+# Пересборка: dart run flutter_launcher_icons
+flutter_launcher_icons:
+  image_path: assets/icon/icon.png
+  android: true
+  min_sdk_android: 24
+  adaptive_icon_background: "#3F51B5"
+  adaptive_icon_foreground: assets/icon/foreground.png
+  adaptive_icon_monochrome: assets/icon/monochrome.png
+  ios: false
+  linux:
+    generate: false
